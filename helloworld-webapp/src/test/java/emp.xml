@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+<!--  expected data after insert -->
+	<location  loc_id="1" street_name="Ameerpet" city_name="Hyderabad" state_name="Ap" zipcode="500006" />
+	<location  loc_id="2" street_name="IndiraPark" city_name="secundarabad" state_name="Ap" zipcode="500080" />
+	<location  loc_id="3" street_name="Arundalpet" city_name="Guntur" state_name="Ap" zipcode="519509" />
+	<location  loc_id="4" street_name="oldguntur" city_name="guntur" state_name="Ap" zipcode="500006" />
+	<location  loc_id="5" street_name="Ameerpet" city_name="Hyderabad" state_name="Ap" zipcode="500006" />
+	<!-- employee table -->
+	<employee emp_id="1" first_name="rajesh" last_name="vibhudi" salary="100000" location="1" />
+	<employee emp_id="2" first_name="dayal" last_name="chanda" salary="100000" location="2" />
+	<employee emp_id="3" first_name="venkat" last_name="yemparala" salary="100000" location="1" />
+	<employee emp_id="4" first_name="vijay" last_name="vijai" salary="100000" location="5" />
+	<employee emp_id="5" first_name="prakas" last_name="dayal" salary="100000" location="4" />
+	<employee emp_id="22" first_name="prakas" last_name="dayal" salary="100000" location="1" />
+</dataset>

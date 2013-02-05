@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. -->
+<project basedir="." default="build" name="helloworld-webapp">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="../../../../Facebook/eclipse-jee-juno-SR1-win32/eclipse"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.6"/>
+    <property name="source" value="1.6"/>
+    <path id="org.maven.ide.eclipse.MAVEN2_CLASSPATH_CONTAINER.libraryclasspath"/>
+    <path id="JUnit 4.libraryclasspath">
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.junit_4.10.0.v4_10_0_v20120426-0900/junit.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.hamcrest.core_1.1.0.v20090501071000.jar"/>
+    </path>
+    <path id="Maven Dependencies.libraryclasspath">
+        <pathelement location="C:/Users/win7ultimate/.m2/repository/com/sun/jersey/jersey-server/1.4/jersey-server-1.4.jar"/>
+        <pathelement location="C:/Users/win7ultimate/.m2/repository/com/sun/jersey/jersey-core/1.4/jersey-core-1.4.jar"/>
+        <pathelement location="C:/Users/win7ultimate/.m2/repository/asm/asm/3.1/asm-3.1.jar"/>
+        <pathelement location="C:/Users/win7ultimate/.m2/repository/org/dbunit/dbunit/2.2/dbunit-2.2.jar"/>
+        <pathelement location="C:/Users/win7ultimate/.m2/repository/junit/junit/3.8.2/junit-3.8.2.jar"/>
+        <pathelement location="C:/Users/win7ultimate/.m2/repository/junit-addons/junit-addons/1.4/junit-addons-1.4.jar"/>
+        <pathelement location="C:/Users/win7ultimate/.m2/repository/xerces/xercesImpl/2.6.2/xercesImpl-2.6.2.jar"/>
+        <pathelement location="C:/Users/win7ultimate/.m2/repository/xerces/xmlParserAPIs/2.6.2/xmlParserAPIs-2.6.2.jar"/>
+        <pathelement location="C:/Users/win7ultimate/.m2/repository/poi/poi/2.5.1-final-20040804/poi-2.5.1-final-20040804.jar"/>
+        <pathelement location="C:/Users/win7ultimate/.m2/repository/commons-collections/commons-collections/3.1/commons-collections-3.1.jar"/>
+        <pathelement location="C:/Users/win7ultimate/.m2/repository/commons-lang/commons-lang/2.1/commons-lang-2.1.jar"/>
+        <pathelement location="C:/Users/win7ultimate/.m2/repository/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar"/>
+        <pathelement location="C:/Users/win7ultimate/.m2/repository/com/sun/jersey/jersey-test-framework/jersey-test-framework-external/1.4/jersey-test-framework-external-1.4.jar"/>
+        <pathelement location="C:/Users/win7ultimate/.m2/repository/com/sun/jersey/jersey-test-framework/jersey-test-framework-core/1.4/jersey-test-framework-core-1.4.jar"/>
+        <pathelement location="C:/Users/win7ultimate/.m2/repository/com/sun/jersey/jersey-client/1.4/jersey-client-1.4.jar"/>
+        <pathelement location="C:/Users/win7ultimate/.m2/repository/org/glassfish/javax.servlet/3.0-b66/javax.servlet-3.0-b66.jar"/>
+        <pathelement location="C:/Users/win7ultimate/.m2/repository/com/sun/jersey/jersey-test-framework/jersey-test-framework-grizzly/1.4/jersey-test-framework-grizzly-1.4.jar"/>
+        <pathelement location="C:/Users/win7ultimate/.m2/repository/com/sun/grizzly/grizzly-servlet-webserver/1.9.18-i/grizzly-servlet-webserver-1.9.18-i.jar"/>
+        <pathelement location="C:/Users/win7ultimate/.m2/repository/com/sun/grizzly/grizzly-http/1.9.18-i/grizzly-http-1.9.18-i.jar"/>
+        <pathelement location="C:/Users/win7ultimate/.m2/repository/com/sun/grizzly/grizzly-framework/1.9.18-i/grizzly-framework-1.9.18-i.jar"/>
+        <pathelement location="C:/Users/win7ultimate/.m2/repository/com/sun/grizzly/grizzly-rcm/1.9.18-i/grizzly-rcm-1.9.18-i.jar"/>
+        <pathelement location="C:/Users/win7ultimate/.m2/repository/com/sun/grizzly/grizzly-portunif/1.9.18-i/grizzly-portunif-1.9.18-i.jar"/>
+        <pathelement location="C:/Users/win7ultimate/.m2/repository/com/sun/grizzly/grizzly-http-servlet/1.9.18-i/grizzly-http-servlet-1.9.18-i.jar"/>
+        <pathelement location="C:/Users/win7ultimate/.m2/repository/com/sun/grizzly/grizzly-utils/1.9.18-i/grizzly-utils-1.9.18-i.jar"/>
+        <pathelement location="C:/Users/win7ultimate/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"/>
+        <pathelement location="C:/Users/win7ultimate/.m2/repository/org/hibernate/hibernate-core/3.6.0.Final/hibernate-core-3.6.0.Final.jar"/>
+        <pathelement location="C:/Users/win7ultimate/.m2/repository/antlr/antlr/2.7.6/antlr-2.7.6.jar"/>
+        <pathelement location="C:/Users/win7ultimate/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar"/>
+        <pathelement location="C:/Users/win7ultimate/.m2/repository/org/hibernate/hibernate-commons-annotations/3.2.0.Final/hibernate-commons-annotations-3.2.0.Final.jar"/>
+        <pathelement location="C:/Users/win7ultimate/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.0.Final/hibernate-jpa-2.0-api-1.0.0.Final.jar"/>
+        <pathelement location="C:/Users/win7ultimate/.m2/repository/javax/transaction/jta/1.1/jta-1.1.jar"/>
+        <pathelement location="C:/Users/win7ultimate/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar"/>
+        <pathelement location="C:/Users/win7ultimate/.m2/repository/javassist/javassist/3.12.1.GA/javassist-3.12.1.GA.jar"/>
+        <pathelement location="C:/Users/win7ultimate/.m2/repository/mysql/mysql-connector-java/5.1.22/mysql-connector-java-5.1.22.jar"/>
+        <pathelement location="C:/Users/win7ultimate/.m2/repository/com/google/code/gson/gson/2.2.2/gson-2.2.2.jar"/>
+    </path>
+    <path id="helloworld-webapp.classpath">
+        <pathelement location="target/classes"/>
+        <pathelement location="target/test-classes"/>
+        <path refid="org.maven.ide.eclipse.MAVEN2_CLASSPATH_CONTAINER.libraryclasspath"/>
+        <path refid="JUnit 4.libraryclasspath"/>
+        <path refid="Maven Dependencies.libraryclasspath"/>
+    </path>
+    <target name="init">
+        <mkdir dir="target/classes"/>
+        <mkdir dir="target/test-classes"/>
+        <copy includeemptydirs="false" todir="target/classes">
+            <fileset dir="src/main/java">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="target/classes">
+            <fileset dir="src/main/resources">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+                <exclude name="**"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="target/test-classes">
+            <fileset dir="src/test/java">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="target/classes"/>
+        <delete dir="target/test-classes"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="target/classes" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src/main/java"/>
+            <src path="src/main/resources"/>
+            <exclude name="**"/>
+            <classpath refid="helloworld-webapp.classpath"/>
+        </javac>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="target/test-classes" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src/test/java"/>
+            <classpath refid="helloworld-webapp.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+</project>
